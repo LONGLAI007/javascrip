@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>unit4</title>
+</head>
+<body>
+    node js
+    <script>
+        // pa kat to bbb oject
+        const address={
+            village:'Nongbon',
+            district:'Xaysettha',
+            phone:['020 5554 7562','020 77581069']
+        }
+    console.log(address.village)
+    console.log(address.district)
+    const {village,district,phone}=address
+    console.log(village)
+    console.log(phone)
+    //  spread
+    console.log(phone[0]) // ໃຊ້ເຈາະຕຳແໜ່ງແບບໃຊ້ ເລກ ອາເລ 
+    const [p1,p2]=phone // ໃຊ້ເຈາະຕຳແໜ່ງແບບໃຊ້ ຕົວປ່ຽນ 
+    console.log(p1)
+    console.log(p2)
+    for(let i=0;i<=10;i++ ){
+        console.log(i)
+    }
+
+    </script>
+</body>
+</html>
